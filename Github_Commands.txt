@@ -1,0 +1,24 @@
+Github Commands
+
+touch .gitignore --> ignore thr files
+git config --global user.name Vishakha
+git config --global user.email "jadhavvishakha1111@gmail.com"
+git init    --> Holds content
+git add .   --> Add files to staging area
+git commit -m "Initial Commit"
+git status --> Just to see working tree is clean or not
+ssh-keygen -t ed25519 -C "jadhavvishakha1111@.com"
+tail <path to id_rsa.pub>    --> Add this key to your github account 
+git remote add origin <ssh url.git>
+git push origin master 
+
+
+
+Add new files to this folder
+
+- Create and save file in this folder
+- Open Gitbash
+- git status
+- git add .
+- git commit -m "Added new file"
+- git push origin master
